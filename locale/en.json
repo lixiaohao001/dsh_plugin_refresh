@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh_plugin_refresh",
+    "description": "Install a plugin and use it right away: check the installed composition, finish activation in-process, and reload plugin code whose files changed, so a plugin no longer needs a restart."
+  }
+}

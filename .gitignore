@@ -1,0 +1,19 @@
+# Runtime and editor noise. The package itself ships only lib/, locale/,
+# cordis.patch.yml, icon.svg, README.md and docs/ (see package.json "files").
+node_modules/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Local development leftovers
+*.local
+.dev/
+tmp/

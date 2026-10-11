@@ -1,0 +1,9 @@
+# dsh_plugin_refresh bundle patch.
+#
+# A bundle patch is a top-level YAML array of Loader patch entries. `insert`
+# appends rows to the profile's root entry list; every other key targets an
+# existing row by `id`. This layer adds only its own row and replaces nothing,
+# so the profile keeps every bundle it already had.
+- insert:
+    - id: plugin-refresh
+      name: dsh_plugin_refresh
